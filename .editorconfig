@@ -18,3 +18,7 @@ indent_size = 4
 # File extensions that requires 2 spaces for indention
 [**.{js,sh,xml,css,html}]
 indent_size = 2
+
+# Files that all allow trailing spaces
+[**.{md}]
+trim_trailing_whitespace = false
