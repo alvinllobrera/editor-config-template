@@ -1,7 +1,9 @@
 # http://editorconfig.org
 
+# This file should be added in the root directory of the project
 root = true
 
+# Standard formatting on all files
 [*]
 charset = utf-8
 indent_style = space
@@ -9,8 +11,10 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+# File extensions that requires 4 spaces for indention
 [**.{java,py}]
 indent_size = 4
 
-[**.{js, sh}]
+# File extensions that requires 2 spaces for indention
+[**.{js,sh,xml,css,html}]
 indent_size = 2
